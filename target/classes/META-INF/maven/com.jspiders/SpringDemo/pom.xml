@@ -30,6 +30,12 @@
   </dependencyManagement>
 
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.24</version>
+</dependency>
   
   
     <dependency>
@@ -50,6 +56,11 @@
     <artifactId>spring-context</artifactId>
     <version>5.3.18</version>
 </dependency>
+  	<dependency>
+  		<groupId>com.jspiders</groupId>
+  		<artifactId>one-to-one</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <build>
